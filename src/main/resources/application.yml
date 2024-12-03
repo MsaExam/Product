@@ -1,9 +1,8 @@
 spring:
   application:
-    name: msa_exam.product
+    name: product-service
+  profiles:
+    active: dev
+
 server:
   port: 19093
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:19090/eureka/
